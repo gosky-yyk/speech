@@ -1,0 +1,11 @@
+server:
+  port: 9788
+
+spring:
+  application:
+    name: @artifactId@
+  profiles:
+    active: dev
+
+kuaiyu:
+  version: @version@
